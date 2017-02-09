@@ -40,7 +40,7 @@ DEFAULT_CATEGORY = 'misc'
 
 OUTPUT_PATH = 'output/'
 THEME = '/Users/rafael/basic/'
-MENUITEMS = (('cv', 'resume.html'),
+MENUITEMS = (('cv', 'resume.pdf'),
              ('email', 'mailto:skraft@gmail.com'),
              ('linkedin', 'https://de.linkedin.com/in/rafael-schultze-kraft-9a044b93'),
              ('github', 'http://github.com/neocortex'))

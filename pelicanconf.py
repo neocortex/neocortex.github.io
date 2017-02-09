@@ -39,7 +39,7 @@ DEFAULT_CATEGORY = 'misc'
 # DISPLAY_CATEGORIES_ON_MENU = True
 
 OUTPUT_PATH = 'output/'
-THEME = '/Users/rafael/basic/'
+THEME = '/Users/rafael/basic'
 MENUITEMS = (('cv', 'resume.pdf'),
              ('email', 'mailto:skraft@gmail.com'),
              ('linkedin', 'https://de.linkedin.com/in/rafael-schultze-kraft-9a044b93'),

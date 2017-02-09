@@ -38,3 +38,17 @@ pre {
     white-space: pre-wrap;
 }
 
+.published {
+    font-style: italic;
+    line-height: 2px;
+    margin-top: 0.1em;
+}
+
+.post-info {
+    font-style: italic;
+    line-height: 2px;
+}
+
+.entry-content {
+    margin-bottom: 2em;
+}

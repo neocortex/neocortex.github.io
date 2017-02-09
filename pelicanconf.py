@@ -2,15 +2,18 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'neocortex'
-SITENAME = 'Something something'
+# AUTHOR = 'Rafael Schultze-Kraft'
+SITENAME = 'Rafael Schultze-Kraft'
 SITEURL = ''
+SUMMARY = '"Ex-neuroscientist, data and machine learning enthusiast, Python aficionado."'
 
 PATH = 'content'
 
 TIMEZONE = 'Europe/Berlin'
 
 DEFAULT_LANG = 'en'
+
+CSS_FILE = 'custom.css'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -19,31 +22,27 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
-
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
-
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 MARKUP = ('md', 'ipynb')
 
-PLUGIN_PATH = './plugins'
+PLUGIN_PATHS= ['./plugins']
 PLUGINS = ['ipynb.markup']
 
+IPYNB_USE_META_SUMMARY = True
+IPYNB_IGNORE_CSS = False
 
 DEFAULT_CATEGORY = 'misc'
-#DISPLAY_PAGES_ON_MENU = True
-#DISPLAY_CATEGORIES_ON_MENU = True
+# DISPLAY_PAGES_ON_MENU = True
+# DISPLAY_CATEGORIES_ON_MENU = True
+
 OUTPUT_PATH = 'output/'
-THEME = 'pelican-blue'
-MENUITEMS = (('Blog', SITEURL), ('About', SITEURL))
+THEME = '/Users/rafael/basic/'
+MENUITEMS = (('cv', 'resume.html'),
+             ('email', 'mailto:skraft@gmail.com'),
+             ('linkedin', 'https://de.linkedin.com/in/rafael-schultze-kraft-9a044b93'),
+             ('github', 'http://github.com/neocortex'))
 
 LOAD_CONTENT_CACHE = False

@@ -1,6 +1,8 @@
 neocortex.github.io
 -------------------
 
+Use Python 2.
+
 To publish to Github pages:
 
     pelican content -o output -s pelicanconf.py

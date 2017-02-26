@@ -50,3 +50,5 @@ LOAD_CONTENT_CACHE = False
 # cname config
 STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+
+RELATIVE_URLS = True

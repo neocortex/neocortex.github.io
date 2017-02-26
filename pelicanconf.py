@@ -46,3 +46,7 @@ MENUITEMS = (('cv', 'resume.pdf'),
              ('github', 'http://github.com/neocortex'))
 
 LOAD_CONTENT_CACHE = False
+
+# cname config
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}

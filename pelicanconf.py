@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 # AUTHOR = 'Rafael Schultze-Kraft'
 SITENAME = 'Rafael Schultze-Kraft'
 SITEURL = ''
-SUMMARY = '"Ex-neuroscientist, data and machine learning enthusiast, Python aficionado."'
+SUMMARY = 'Ex-neuroscientist, data and machine learning enthusiast, Python aficionado.'
 
 PATH = 'content'
 
@@ -25,10 +25,10 @@ AUTHOR_FEED_RSS = None
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 MARKUP = ('md', 'ipynb')
 
-PLUGIN_PATHS= ['./plugins']
+PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['ipynb.markup']
 
 IPYNB_USE_META_SUMMARY = True
@@ -49,6 +49,6 @@ LOAD_CONTENT_CACHE = False
 
 # cname config
 STATIC_PATHS = ['images', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
 
 RELATIVE_URLS = True

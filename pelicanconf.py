@@ -5,7 +5,8 @@ from __future__ import unicode_literals
 # AUTHOR = 'Rafael Schultze-Kraft'
 SITENAME = 'Rafael Schultze-Kraft'
 SITEURL = ''
-SUMMARY = 'Ex-neuroscientist, data and machine learning enthusiast, Python aficionado.'
+SUMMARY = 'Ex-neuroscientist. Data scientist. Machine learner. Python maximalist. Hodler.\n ' \
+          'Currently building www.glassnode.com'
 
 PATH = 'content'
 
@@ -39,11 +40,13 @@ DEFAULT_CATEGORY = 'misc'
 # DISPLAY_CATEGORIES_ON_MENU = True
 
 OUTPUT_PATH = 'output/'
-THEME = '/Users/rafael/basic'
-MENUITEMS = (('cv', 'resume.pdf'),
-             ('email', 'mailto:skraftr@gmail.com'),
+THEME = '/Users/rafael/basic' # https://github.com/getpelican/pelican-themes/tree/master/basic
+MENUITEMS = (# ('cv', 'resume.pdf'),
+             ('email', 'mailto:rafael@glassnode.com'),
              ('linkedin', 'https://de.linkedin.com/in/rafael-schultze-kraft-9a044b93'),
-             ('github', 'http://github.com/neocortex'))
+             ('github', 'http://github.com/neocortex'),
+             ('twitter', 'https://twitter.com/n3ocortex'),
+             ('medium', 'https://medium.com/@neocortex'))
 
 LOAD_CONTENT_CACHE = False
 

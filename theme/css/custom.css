@@ -52,3 +52,7 @@ pre {
 .entry-content {
     margin-bottom: 2em;
 }
+
+img {
+    max-width: 80% !important;
+}
